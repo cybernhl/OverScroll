@@ -2,7 +2,9 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 26
+    namespace = "cn.forward.overscrolldemo"
     defaultConfig {
+
         applicationId "cn.forward.overscrolldemo"
         minSdkVersion 14
         targetSdkVersion 26

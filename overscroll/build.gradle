@@ -2,7 +2,7 @@ apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 26
-
+    namespace = "cn.forward.overscroll"
     defaultConfig {
         minSdkVersion 14
         targetSdkVersion 26
